@@ -17,7 +17,7 @@ $text-color:       #111;
 //$background-color: #fdfdfd;
 $background-color: #82868e;
 $foreground-color: #ffffff;
-$brand-color:      #2a7ae2;
+$brand-color:      #e74c3c;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -29,6 +29,7 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$smallest-width: 531px;
 
 
 // Using media queries with like this:

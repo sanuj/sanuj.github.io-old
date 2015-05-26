@@ -15,17 +15,16 @@
       </a>
       -->
 
-      <ul class="no-bullets">
+      <ul class="header-links">
         {% for page in site.pages %}
           {% if page.title %}
           	<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
           {% endif %}
         {% endfor %}
         <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
-        <li><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>   
+        <li><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li> 
       </ul>
     </nav>
-
   </div>
-
+  <div class="nav-separator"></div>
 </header>
