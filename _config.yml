@@ -13,3 +13,7 @@ github_username:  sanuj
 
 # Build settings
 markdown: kramdown
+
+# Disqus Comments
+disqus_short_name: sanuj_sharma
+# disqus_show_comment_count: false
