@@ -1,6 +1,6 @@
 # Site settings
 title: Sanuj Sharma
-email: 
+email:
 author: Sanuj Sharma
 description: > # this means to ignore newlines until "baseurl:"
   #Write an awesome description for your new site here. You can edit this
@@ -17,3 +17,6 @@ markdown: kramdown
 # Disqus Comments
 disqus_short_name: sanuj
 # disqus_show_comment_count: false
+
+# For Travis
+exclude: [vendor]
