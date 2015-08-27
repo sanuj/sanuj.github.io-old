@@ -42,7 +42,7 @@
         a {
             color: $text-color;
         }
-        
+
         @media screen and (min-width: 866px) {
             text-align: right;
             display: inline-block;
@@ -89,7 +89,7 @@
                 content:"/";
                 margin-right: 0.25em;
             }
-            
+
             span {
                 font-size: 1.15em;
                 display: block;
@@ -168,6 +168,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    text-align: center;
 }
 
 .footer-heading {
